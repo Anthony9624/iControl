@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:background="@drawable/bg"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+    <RelativeLayout 
+       android:layout_height="200dp"
+       android:layout_width="match_parent"
+       android:background="@drawable/car" android:layout_weight="0.15">
+        
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+         >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+         >
+
+        <TextView
+            android:id="@+id/mytime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+       >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+         >
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/button_style"
+            android:text="@string/start"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        
+        android:orientation="horizontal" >
+
+        
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:background="@drawable/button_style"
+            android:text="@string/weather" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:background="@drawable/button_style"
+            android:text="@string/datenote" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:background="@drawable/button_style"
+            android:text="@string/park" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:background="@drawable/button_style"
+            android:text="@string/map" />
+
+        <ToggleButton
+            android:id="@+id/togglebutton"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_margin="1dip"
+            android:layout_weight="1"
+            android:textSize="25sp" 
+            android:textOn="解锁"
+            android:textOff="锁车"
+            android:background="@drawable/button_style"
+             />
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+       >
+    </LinearLayout>
+
+</LinearLayout>
